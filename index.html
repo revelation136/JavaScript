@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page</title>
+    <title>Count</title>
 </head>
 <body>
     <h1>Hello there!</h1>
-    <button onclick="hello()">Click Here</button>
+    <button onclick="hello()">Count</button>
 </body>
 <!-- the process of code is from top to bottom, 
     if you put the script tag after head tag, 
     it will parse first then the page will load longer, that's why it is after body tag. -->
 <script>
-function hello() {
-    alert("Click Ok")
-}</script>
+    let counter = 0;
+    function count() {
+        counter++;
+        // counter = counter+1; this is the root, counter++; is just shortcut
+        alert(counter);
+    }
+</script>
 </html>
