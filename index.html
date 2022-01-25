@@ -8,12 +8,15 @@
 </head>
 <body>
     <h1>Hello there!</h1>
-    <button onclick="hello()">Count</button>
+    <button onclick="count()">Count</button>
 </body>
 <!-- the process of code is from top to bottom, 
     if you put the script tag after head tag, 
     it will parse first then the page will load longer, that's why it is after body tag. -->
 <script>
+    // var: used to define a variable globally
+    // let: used to define a variable that is limited in scope to the current block such as a function or loop
+    // const: used to define a value that will not change
     let counter = 0;
     function count() {
         counter++;
