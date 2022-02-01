@@ -3,3 +3,5 @@ document.querySelectorAll('button').forEach(function(button) {
         document.querySelector('#hello').style.color = button.dataset.color;
     };
 });
+
+console.log(document.querySelectorAll('button'));
