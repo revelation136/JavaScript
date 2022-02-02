@@ -14,6 +14,9 @@
         }
         // formatted string in python, using backticks instead of double or single quotation marks
         // this is called templeted literal
+
+        // setInterval takes function as argument and 1000 is in millisecond
+        setInterval(count, 1000);
     }
 
     document.querySelector('button').onclick = count;

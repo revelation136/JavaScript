@@ -16,8 +16,8 @@
     </select>
 </body>
 <script>
-    // in JS, this is a keyword that changes based on the context in which it's used.
-    // In case pf an event handler, this refers to the object that triggered the event.
+    // in JS, 'this' is a keyword that changes based on the context in which it's used.
+    // In case of an event handler, 'this' refers to the object that triggered the event.
     // sample of events: onclick, onchange, onmouseover, onkeydown, onkeyup, onload,onblur
     document.querySelector('select').onchange = function() {
         document.querySelector('#hello').style.color = this.value

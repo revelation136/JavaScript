@@ -30,11 +30,12 @@ document.querySelector('form').onsubmit = function() {
     document.querySelector('#tasks').append(li);
 
     // Clear out input field:
-    newTask.value = '';
+    newTask.value = ''; 
 
     // Disable the submit button again:
     submit.disabled = true;
 
-    // Stop form from submitting (try removing return false and see what happens)
+    // Stop form from submitting:
+    // stoping event bubbling
     return false;
 };
