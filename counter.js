@@ -1,23 +1,25 @@
-// var: used to define a variable globally
-    // let: used to define a variable that is limited in scope to the current block such as a function or loop
-    // const: used to define a value that will not change
-    let counter = 0;
+// Checking if there is already value in local storage
+    // trying to retrieve 'counter', if there's none, set to zero
+    // .getItem vs .setItem always remember
+    if (!localStorage.getItem('counter')) {
+
+        localStorage.setItem('counter', 0)
+    }
 
     function count() {
+        // Retrieve counter value from local storage
+        let counter = localStorage.getItem('counter');
+
+        // Update Counter
         counter++;
         // counter = counter + 1; this is the root, counter++; is just shortcut
         document.querySelector("h1").innerHTML = counter;
         // select element h1 to display the current value of our variable counter
     
-        // formatted string in python, using backticks instead of double or single quotation marks
-        // this is called templeted literal
-        if (counter % 10 === 0) {
-            alert(`Count is now ${counter}`);
-        }
+        // Store counter in local storage
+        localStorage.setItem('counter', counter)
     };
 
-    // Find me the button of the page then onclick execute count function
+    // Set heading to the current value inside local storage
+    document.querySelector('h1').innerHTML = localStorage.getItem('counter');
     document.querySelector('button').onclick = count;
-        
-    // setInterval takes function as argument and 1000 is in millisecond
-    setInterval(count, 1000);
