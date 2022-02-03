@@ -9,15 +9,15 @@
         document.querySelector("h1").innerHTML = counter;
         // select element h1 to display the current value of our variable counter
     
+        // formatted string in python, using backticks instead of double or single quotation marks
+        // this is called templeted literal
         if (counter % 10 === 0) {
             alert(`Count is now ${counter}`);
         }
-        // formatted string in python, using backticks instead of double or single quotation marks
-        // this is called templeted literal
+    };
 
-        // setInterval takes function as argument and 1000 is in millisecond
-        setInterval(count, 1000);
-    }
-
-    document.querySelector('button').onclick = count;
     // Find me the button of the page then onclick execute count function
+    document.querySelector('button').onclick = count;
+        
+    // setInterval takes function as argument and 1000 is in millisecond
+    setInterval(count, 1000);
