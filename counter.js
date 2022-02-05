@@ -22,4 +22,10 @@
 
     // Set heading to the current value inside local storage
     document.querySelector('h1').innerHTML = localStorage.getItem('counter');
-    document.querySelector('button').onclick = count;
+    document.querySelector('#count').onclick = count;
+
+    function reset() {
+        let counter = localStorage.setItem('counter', 0)
+        document.querySelector('h1').innerHTML = localStorage.getItem('counter');
+    };
+    document.querySelector('#reset').onclick = reset;
