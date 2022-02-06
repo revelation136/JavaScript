@@ -24,6 +24,7 @@
     document.querySelector('h1').innerHTML = localStorage.getItem('counter');
     document.querySelector('#count').onclick = count;
 
+    // adding reset button
     function reset() {
         let counter = localStorage.setItem('counter', 0)
         document.querySelector('h1').innerHTML = localStorage.getItem('counter');
