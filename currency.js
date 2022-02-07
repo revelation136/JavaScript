@@ -1,18 +1,35 @@
-// Send a GET request to the URL
-// fetch > promise (a hidden variable) > .then
-fetch('https://api.exchangerate.host/latest')
-
-// Put response into json form
-// always take note that the argument of .then is always a function
-// response and data are just parameters  of two anonymous function. therefore they're functions
-.then(response => response.json())
-.then(data => {
+document.querySelector('form').onsubmit = function() {
     
-    console.log(data);
-    // Get rate from data
-    const rate = data.rates.PHP;
+    // Send a Get request to the URL
+    fetch('https://api.exchangerate.host/latest')
 
-    // Display message on the screen
-    // toFixed(3) means 3 decimal values
-    document.querySelector('body').innerHTML = `1 USD is equal to ${rate.toFixed(3)}PHP.`
-});
+    // Put response into JSON form
+    .then(response => response.json())
+    .then(data => {
+
+        // Get currency from user input and convert to upper case
+        const currency = document.querySelector('#currency').value.toUpperCase();
+
+        // Get rate from data
+        const rate = data.rates[currency];
+
+        // Check if currency is valid:
+        if (rate !== undefined) {
+
+            // Display exchange on the screen
+            document.querySelector('#result').innerHTML = `1 USD is equal to ${rate.toFixed(3)} ${currency}`;
+        }
+        else {
+            // Display error on the screen
+            document.querySelector('#result').innerHTML = 'Invalid Currency.';
+        }
+    })
+
+    // Catch any errors and log them to the console
+    .catch(error => {
+        console.log('Error:', error);
+    });
+
+    // Prevent default Submission
+    return false;
+}
