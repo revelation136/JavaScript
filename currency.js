@@ -5,7 +5,9 @@ fetch('https://api.exchangerate.host/latest')
 // Put response into json form
 // always take note that the argument of .then is always a function
 // response and data are just parameters  of two anonymous function. therefore they're functions
-.then(response => response.json())
+.then(response => {
+    response.json()
+})
 .then(data => {
     
     console.log(data);
