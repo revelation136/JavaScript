@@ -1,0 +1,113 @@
+[33mcommit b715a69977efdb9f69ebb33ef8dda91df41feac3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Wed Feb 23 18:07:00 2022 +0800
+
+    currency v.2 Progress - 10%
+
+[33mcommit ed593ef0708650b26823f222a63ec78e0a2370f1[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Mon Feb 7 09:03:31 2022 +0800
+
+    Currency V.2
+
+[33mcommit 1de983d4954b9b28bd71cc23d32468f273d2d094[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Sun Feb 6 20:00:37 2022 +0800
+
+    Currency - adding data value to body by using .innerHTML
+
+[33mcommit c6612d4079fb539f19829fb18bba093386733df0[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Sun Feb 6 19:40:48 2022 +0800
+
+    API - creating a currency exchange and logging the data to console
+
+[33mcommit 35652c4db7a4785bfda0e978779430fcfde532a8[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Sat Feb 5 19:24:25 2022 +0800
+
+    adding reset button - localStorage.setItem/locatStorage.getItem
+
+[33mcommit ebbf355fed6a614124433fe66e8dc9f54c767bc7[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Thu Feb 3 11:24:08 2022 +0800
+
+    localStorage.getItem/localStorage.setItem'
+
+[33mcommit 63424b57ad8fe460c4bcc18900d188f5e099b7bf[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Thu Feb 3 08:44:20 2022 +0800
+
+    setInterval v.2.0
+
+[33mcommit 6e0ddd955c6ad7a8c8c12f3e8993874fb7ad5524[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Wed Feb 2 19:13:10 2022 +0800
+
+    setInterval - function that take arguments as function and value which is in millisecond
+
+[33mcommit 4c60fddf59baac99f657c80007ffe7ea3d8fa03a[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Feb 1 18:08:55 2022 +0800
+
+    To Do list
+
+[33mcommit 2bfb29c5cd73eed49a2fc225d6ac47bae589d33b[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Feb 1 17:16:23 2022 +0800
+
+    Adding 'this' Keyword
+
+[33mcommit 887000ebee14a16f86e895687dcb990d42d5fe54[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Thu Jan 27 00:04:37 2022 +0800
+
+    DOM - sample of interactive JS
+
+[33mcommit 802cb9e7054fd43a01d504466f988ea88408a163[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Wed Jan 26 23:31:04 2022 +0800
+
+    DOM - adding src to script tag as attribute and make a separate file for JS
+
+[33mcommit d4dc793e85fe2406ec6187c8d4b14e7f401c9efb[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Wed Jan 26 23:28:01 2022 +0800
+
+    DOM - document.addEventListener() will take 2 variables, my code runs because i put the script tag below body so, it will load the page and find that button tag
+
+[33mcommit 914164733ed8af5d8f3998f4056bc25b1eab329f[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Wed Jan 26 22:59:43 2022 +0800
+
+    Document Object Model (DOM) Manipulation - Changing <h1> to current value of the variable counter
+
+[33mcommit 4a7fe7f73d16b3eea6becdb1bb63c8c62778e51b[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Jan 25 22:12:10 2022 +0800
+
+    querySelector - learning, .innerHTML and document.querySelector() which targets an element
+
+[33mcommit b871f4a1f7754db57e9a7d8608c3c9743ffe7731[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Jan 25 21:59:28 2022 +0800
+
+    Variable v.2
+
+[33mcommit a46efa9677293c88b613428b6f81d67d93bba9c3[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Jan 25 21:56:53 2022 +0800
+
+    Variables: let, var, const
+
+[33mcommit 1ed2b5e5a49260b36848f7125299cc582ef91933[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Jan 25 18:03:47 2022 +0800
+
+    Event listener - listen to event just like as click, cursor being move and etc. adding a function 'hello()' and calling it by event lister 'onclick'
+
+[33mcommit fa66717bebc4ba1754382c6bac56a58bad6aec33[m
+Author: revelation136 <revelation136@gmail.com>
+Date:   Tue Jan 25 17:49:13 2022 +0800
+
+    Using script tag for JS codes, 'alert' function in JS displays a message to the user which they can then dismiss.

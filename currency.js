@@ -1,4 +1,5 @@
 document.querySelector('form').onsubmit = function() {
+
     
     // Send a Get request to the URL
     fetch('https://api.exchangerate.host/latest')
