@@ -20,7 +20,7 @@
         localStorage.setItem('counter', counter)
     };
 
-    // Set heading to the current value inside local storage
+    // Set h1 to the current value inside local storage
     document.querySelector('h1').innerHTML = localStorage.getItem('counter');
     document.querySelector('#count').onclick = count;
 
