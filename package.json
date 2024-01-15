@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "datatables.net": "^1.13.8",
+    "datatables.net-dt": "^1.13.8",
+    "dt": "^0.0.1",
+    "jquery": "^3.7.1"
+  }
+}

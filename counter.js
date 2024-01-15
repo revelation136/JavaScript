@@ -11,11 +11,11 @@
         let counter = localStorage.getItem('counter');
 
         // Update Counter
+         // counter = counter + 1; this is the root, counter++; is just shortcut
         counter++;
-        // counter = counter + 1; this is the root, counter++; is just shortcut
-        document.querySelector("h1").innerHTML = counter;
-        // select element h1 to display the current value of our variable counter
-    
+
+        document.querySelector('h1').innerHTML = counter;
+
         // Store counter in local storage
         localStorage.setItem('counter', counter)
     };

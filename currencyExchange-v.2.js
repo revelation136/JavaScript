@@ -14,5 +14,5 @@ fetch(url)
             x += currencies[i]; 
         }
         console.log(currencies[0]);
-        // document.querySelector("p").innerHTML = x;
+        document.querySelector("p").innerHTML = x;
     })
